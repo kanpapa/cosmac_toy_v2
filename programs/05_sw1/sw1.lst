@@ -1,0 +1,26 @@
+
+SB-Cross Assembler version 3.03.10
+Please visit www.sbprojects.net for a complete description.
+
+Assembling....
+
+Pass one
+Loaded 1802 overlay version 3.01.01
+
+Pass two
+0000-                  1        *
+0000-                  2        * Push switch Q-LED program 1 for COSMAC
+0000-                  3        * SB-Assembler
+0000-                  4        *
+0000-                  5                .CR     1802
+0000-                  6                .OR     $0000
+0000-                  7        *
+0000-34 05             8 (   2) START:  B1      L1                  ; ~EF1 = 1(VSS) だったら L1にジャンプ
+0002-7A                9 (   2)         REQ                         ; Q出力を0にする(LED消灯)
+0003-30 00            10 (   2)         BR      START               ; 0000番地にジャンプ
+0005-7B               11 (   2) L1:     SEQ                         ; Q出力を1にする(LED点灯)
+0006-30 00            12 (   2)         BR      START               ; 0000番地にジャンプ
+
+0 Errors found during assembly.
+0 Warnings found during assembly.
+
