@@ -111,7 +111,7 @@ ROMは搭載されておらず、トグルスイッチでRAMにプログラム�
 ## 参考・引用文献
 
 - トランジスタ技術別冊 つくるシリーズ７ 手作りコンピュータ入門 CQ出版社, 1981
-- [KiCad 5.0 / 5.1 入門実習テキスト『KiCad Basics for 5.x』 Kosaka.Lab.出版掛 マッハ新書](https://booth.pm/ja/items/941963)
+- [KiCad 8 入門実習テキスト『KiCad Basics for 8.0』Kosaka.Lab.出版掛](https://kosakalab.booth.pm/items/5554691)
 - [intersil CDP1802AC/3データシート](https://www.renesas.com/jp/ja/www/doc/datasheet/cdp1802ac-3.pdf)
 - [SB-Assembler](https://www.sbprojects.net/sbasm/)
 - [COSMAC ELF - RCA CDP1802 Computing](http://www.cosmacelf.com/)
