@@ -5,12 +5,13 @@
 
 ## サンプルプログラム
 
-* [パルス信号を作る](https://kanpapa.com/cosmac/blog/2018/11/rca-cdp1802-cosmac2.html)
+* [パルス信号を作る](01_osc1/README.md)
     * [01_osc1](01_osc1) - 動作確認用。Q出力の0,1を繰り返します。Q出力のLEDは超高速点滅なので点灯したままに見えます。オシロであれば信号を確認できます。
-* [カウンタプログラム](https://kanpapa.com/cosmac/blog/2018/12/rca-cdp1802-cosmac4.html)
-    * [02_count1](02_count1) - 高速表示版。これも速すぎて見えないです。
-    * [03_count2](03_count2) - 低速表示版。これぐらいでようやく見えます。
-* [加算プログラム](https://kanpapa.com/cosmac/blog/2018/12/rca-cdp1802-cosmac4.html)
+* [カウンタプログラム1](02_count1/README.md)
+    * [02_count1](02_count1) - 加算しているカウンタの値をLEDに表示し続けます。速すぎて上位のLEDがチラチラするだけで他のLEDは点灯状態です。
+* [カウンタプログラム2](03_count2/README.md)
+    * [03_count2](03_count2) - 加算しているカウンタの値をLEDに表示し続ける低速表示版です。これぐらいでようやく見えます。
+* [加算プログラム](04_add1/README.md)
     * [04_add1](04_add1) - トグルスイッチで設定した値に6を加算した数値をLEDに表示します。
 * [押しボタンスイッチでQ出力を制御](05_sw1/README.md)
     * [05_sw1](05_sw1) - EF1に接続したスイッチを押すとQ-LEDが消灯し、離すとQ-LEDが点灯します。
