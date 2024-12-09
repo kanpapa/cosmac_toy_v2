@@ -1,0 +1,26 @@
+
+SB-Cross Assembler version 3.03.06
+Please visit www.sbprojects.net for a complete description.
+
+Assembling....
+
+Pass one
+Loaded 1802 overlay version 3.01.01
+
+Pass two
+0000-                  1        *
+0000-                  2        * Oscillator program 1 for COSMAC
+0000-                  3        * SB-Assembler
+0000-                  4        *
+0000-                  5                .CR     1802    ;To load the 1802 cross overlay
+0000-                  6                .OR     $0000
+0000-                  7        *
+0000-7B                8 (   2) START   SEQ             ;Q <- 1
+0001-7A                9 (   2)         REQ             ;Q <- 0
+0002-30 00            10 (   2)         BR      START   ;Branch to START
+0004-                 11
+0004-                 12                .EN
+
+0 Errors found during assembly.
+0 Warnings found during assembly.
+

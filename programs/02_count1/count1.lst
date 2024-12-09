@@ -1,0 +1,34 @@
+
+SB-Cross Assembler version 3.03.06
+Please visit www.sbprojects.net for a complete description.
+
+Assembling....
+
+Pass one
+Loaded 1802 overlay version 3.01.01
+
+Pass two
+0000-                  1        *
+0000-                  2        * Counter program 1 for COSMAC
+0000-                  3        * SB-Assembler
+0000-                  4        *
+0000-                  5                .CR     1802    ;To load the 1802 cross overlay
+0000-                  6                .OR     $0000
+0000-                  7        *
+0000-F8 0B             8 (   2) START   LDI     #IOR    ;D <- #IOR
+0002-A3                9 (   2)         PLO     3       ;R(3).0 <- D
+0003-E3               10 (   2)         SEX     3       ;X <- 3
+0004-84               11 (   2) LOOP1   GLO     4       ;D <- R(4).0
+0005-53               12 (   2)         STR     3       ;M(R(3)) <- D
+0006-61               13 (   2)         OUT     1       ;BUS <- M(R(3)); R(3)++
+0007-23               14 (   2)         DEC     3       ;R(3)--
+0008-14               15 (   2)         INC     4       ;R(4)++
+0009-30 04            16 (   2)         BR      LOOP1   ;Branch to LOOP1
+000B-                 17        *
+000B-00               18        IOR     .DB     0       ;IO Register
+000C-                 19
+000C-                 20                .EN
+
+0 Errors found during assembly.
+0 Warnings found during assembly.
+
