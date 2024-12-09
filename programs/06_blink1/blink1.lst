@@ -1,0 +1,33 @@
+
+SB-Cross Assembler version 3.03.10
+Please visit www.sbprojects.net for a complete description.
+
+Assembling....
+
+Pass one
+Loaded 1802 overlay version 3.01.01
+
+Pass two
+0000-                  1        *
+0000-                  2        * Blink Q-LED program 1 for COSMAC
+0000-                  3        * SB-Assembler
+0000-                  4        *
+0000-                  5                .CR     1802
+0000-                  6                .OR     $0000
+0000-                  7        *
+0000-F8 40             8 (   2) START:  LDI     #$40                ; Dレジスタに$40を入れる（点滅間隔のウェイトループ値）
+0002-B4                9 (   2)         PHI     4                   ; R4の上位バイトにDレジスタの値を代入する
+0003-CD               10 (   3)         LSQ                         ; Qが1だったら2バイトスキップする
+0004-7B               11 (   2)         SEQ                         ; Qを1にする
+0005-38               12 (   2)         SKP                         ; 次の命令を無条件でスキップする
+0006-7A               13 (   2)         REQ                         ; Qを0にする
+0007-24               14 (   2) LOOP1:  DEC     4                   ; R4を1減算する
+0008-84               15 (   2)         GLO     4                   ; DレジスタにR4の下位バイトを代入する
+0009-3A 07            16 (   2)         BNZ     LOOP1               ; Dレジスタが0でなければLOOP1にジャンプ
+000B-94               17 (   2)         GHI     4                   ; DレジスタにR4の上位バイトを代入する
+000C-3A 07            18 (   2)         BNZ     LOOP1               ; Dレジスタが0でなければLOOP1にジャンプ
+000E-30 00            19 (   2)         BR      START               ; 0番地から繰り返し
+
+0 Errors found during assembly.
+0 Warnings found during assembly.
+
