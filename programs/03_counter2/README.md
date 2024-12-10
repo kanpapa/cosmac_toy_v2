@@ -9,7 +9,7 @@ R4レジスタをカウントアップしてその値をLEDに表示すること
 |LOAD IMMEDIATE|LDI|F8|M(R(P)) → D; R(P) + 1 → R(P)|
 |PUT LOW REG N|PLO|AN|D → R(N).0|
 |SET X|SEX|EN|N→X|
-|GET HIGH REG N|GLO|9N|R(N).1 → D|
+|GET HIGH REG N|GHI|9N|R(N).1 → D|
 |STORE VIA N|STR|5N|D → M(R(N))|
 |OUTPUT 1|OUT 1|61|M(R(X)) → BUS; R(X) + 1 → R(X); N LINES = 1|
 |DECREMENT REG N|DEC|2N|R(N) - 1 → R(N)|
