@@ -3,6 +3,19 @@
 ## 概要
 トグルスイッチで設定した値に6を加算した数値をLEDに表示します。
 
+## 使用する命令
+|INSTRUCTION|MNEMONIC|OP CODE|OPERATION|
+|---|---|---|---|
+|LOAD IMMEDIATE|LDI|F8|M(R(P)) → D; R(P) + 1 → R(P)|
+|PUT LOW REG N|PLO|AN|D → R(N).0|
+|SET X|SEX|EN|N→X|
+|INPUT 2|INP 2|6A|BUS → M(R(X)); BUS → D; N LINES = 2|
+|ADD|ADD|F4|M(R(X)) + D → DF, D|
+|STORE VIA N|STR|5N|D → M(R(N))|
+|OUTPUT 1|OUT 1|61|M(R(X)) → BUS; R(X) + 1 → R(X); N LINES = 1|
+|DECREMENT REG N|DEC|2N|R(N) - 1 → R(N)|
+|SHORT BRANCH|BR|30|M(R(P)) → R(P).0|
+
 ## サンプルプログラム
 
 ```

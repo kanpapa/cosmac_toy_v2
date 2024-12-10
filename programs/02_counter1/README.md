@@ -3,6 +3,20 @@
 ## 概要
 R4レジスタをカウントアップしてその値をLEDに表示することを繰り返すものです。
 
+## 使用する命令
+|INSTRUCTION|MNEMONIC|OP CODE|OPERATION|
+|---|---|---|---|
+|LOAD IMMEDIATE|LDI|F8|M(R(P)) → D; R(P) + 1 → R(P)|
+|PUT LOW REG N|PLO|AN|D → R(N).0|
+|SET X|SEX|EN|N→X|
+|GET LOW REG N|GLO|8N|R(N).0 → D|
+|STORE VIA N|STR|5N|D → M(R(N))|
+|OUTPUT 1|OUT 1|61|M(R(X)) → BUS; R(X) + 1 → R(X); N LINES = 1|
+|DECREMENT REG N|DEC|2N|R(N) - 1 → R(N)|
+|INCREMENT REG N|INC|1N|R(N) + 1 → R(N)|
+|SHORT BRANCH|BR|30|M(R(P)) → R(P).0|
+
+
 ## サンプルプログラム
 
 ```
