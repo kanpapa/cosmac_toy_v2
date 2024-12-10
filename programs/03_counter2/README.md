@@ -19,4 +19,5 @@ R4レジスタをカウントアップしてその値をLEDに表示すること
 ## 実行結果
 カウンタプログラム2に比べてLEDの表示が256分の1の速度になりました。これでカウントしている様子がわかるようになりました。  
 画像をクリックすると動画が再生されます。
+
 [![counter2 video](https://img.youtube.com/vi/4HAdMqkbjag/0.jpg)](https://www.youtube.com/watch?v=4HAdMqkbjag)
