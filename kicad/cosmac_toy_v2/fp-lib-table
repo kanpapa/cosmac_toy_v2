@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Switch_Toggle")(type "KiCad")(uri "${KIPRJMOD}/footprints/Switch_Toggle.pretty")(options "")(descr ""))
+  (lib (name "Switch_Toggle_3D")(type "KiCad")(uri "${KIPRJMOD}/3dmodels/Switch_Toggle.3dshapes")(options "")(descr ""))
+)

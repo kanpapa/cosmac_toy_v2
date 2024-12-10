@@ -1,0 +1,243 @@
+(footprint "SW_Toggle_P2.54mm_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Sub-Miniature Toggle Switches 2MS")
+	(tags "SWITCH 2MS TOGGLE SW P02399")
+	(property "Reference" "REF**"
+		(at 0 -2.8 0)
+		(layer "F.SilkS")
+		(uuid "a645fbc4-0c21-4386-af51-399b67646c43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Toggle_P2.54mm_Vertical"
+		(at 0.1 7.9 0)
+		(layer "F.Fab")
+		(uuid "d4c1807b-8c4d-4758-811c-b190d545d2ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4a5d6f1-5134-46ce-8bfe-132827067d34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "859208b2-7c8c-4ec3-880f-fa86bde0f438")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6396ed9b-a1c8-460f-bb59-9be497e10826")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -1.522)
+		(end 2.54 -1.522)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95140356-fbea-49e9-9cd3-2281d6b21b4f")
+	)
+	(fp_line
+		(start -2.54 6.608)
+		(end -2.54 -1.522)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a10079ec-30f7-49af-9884-00b27e3f2070")
+	)
+	(fp_line
+		(start 2.54 -1.522)
+		(end 2.54 6.608)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f973c684-3977-49d0-9262-54246f1fc24d")
+	)
+	(fp_line
+		(start 2.54 6.608)
+		(end -2.54 6.608)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "928fa584-a222-447b-9a4e-3e84f50cb9c4")
+	)
+	(fp_line
+		(start -3.1 -2.1)
+		(end -3.1 7.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "915d0069-f362-4601-9136-7e5615d797dc")
+	)
+	(fp_line
+		(start -3.1 7.1)
+		(end 3.1 7.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a4ac0b5-a7d9-4b8e-853c-1751b3e08670")
+	)
+	(fp_line
+		(start 3.1 -2.1)
+		(end -3.1 -2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "913a221c-bc8c-44c9-a1ca-d1cf5b3a1b73")
+	)
+	(fp_line
+		(start 3.1 7.1)
+		(end 3.1 -2.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ee9f92c-3502-4281-8385-eeae9de3e89c")
+	)
+	(fp_line
+		(start -2.4 -0.8)
+		(end -1.9 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b144ba05-aa46-4bba-95fd-f922ec9ee509")
+	)
+	(fp_line
+		(start -2.4 6.5)
+		(end -2.4 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "743298ba-2818-4ea8-9dbe-a419ecd55698")
+	)
+	(fp_line
+		(start -1.9 -1.4)
+		(end 2.4 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec0bc948-4062-4d7d-9b71-c1d8af8d879a")
+	)
+	(fp_line
+		(start 2.4 -1.4)
+		(end 2.4 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d84b29a6-ceb2-4a3f-b453-2e3506aa6493")
+	)
+	(fp_line
+		(start 2.4 6.5)
+		(end -2.4 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a5ce717-140d-4a0f-bfce-3d0a32892589")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.54 90)
+		(layer "F.Fab")
+		(uuid "89f4d516-9acf-4ade-a7cd-523bfc7ccd0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "952feded-c79e-4c76-9b12-92075842df3d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1c70747-fbcf-4c4a-b6a2-aab3f5315a7f")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0cecc979-e9a2-4df7-aa1a-7d950e1990ec")
+	)
+	(model "${KIPRJMOD}/3dmodels/Switch_Toggle.3dshapes/SW_Toggle_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.4 0.4 0.4)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

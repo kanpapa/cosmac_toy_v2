@@ -1,0 +1,247 @@
+(footprint "CH243-2032CF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Panasonic CR-2032/VS1N battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D348.PDF")
+	(tags "battery CR-2032 coin cell vertical")
+	(property "Reference" "REF**"
+		(at 5.7 -5.8 0)
+		(layer "F.SilkS")
+		(uuid "62572e48-123e-40e3-bbac-e4ee3d41f626")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CH243-2032CF"
+		(at 4.825 2.5 0)
+		(layer "F.Fab")
+		(uuid "003a5141-e200-4e63-b032-3dc8d3c60607")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4331c261-a9eb-4e12-82dd-974148dadc8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d238c058-bea4-461e-bb72-fe5d1c7f04ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54fab26b-dc1f-424c-9218-6adaebc1029b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7 -5.1)
+		(end -7 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48016a16-8602-46dd-bd85-d3687867709e")
+	)
+	(fp_line
+		(start -7 -5.1)
+		(end 17 -5.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8824121-5c2e-4d31-8731-4a8b3bb87bbc")
+	)
+	(fp_line
+		(start -7 1.5)
+		(end 17 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8525333-13f5-4ecf-9668-d590a6968e6f")
+	)
+	(fp_line
+		(start 17 -5.1)
+		(end 17 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e02cc154-2e4b-4cc3-94d2-75105d00954f")
+	)
+	(fp_line
+		(start -7.1 -5.2)
+		(end -7.1 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "931eb86e-e3f8-4687-aff5-9e37ac6b9849")
+	)
+	(fp_line
+		(start -7.1 -5.2)
+		(end 17.1 -5.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57c102eb-b177-4220-ac3e-15a5da0e4ef6")
+	)
+	(fp_line
+		(start -7.1 1.6)
+		(end 17.1 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17c78b9f-8473-4b75-9be7-c6c190652186")
+	)
+	(fp_line
+		(start 17.1 -5.2)
+		(end 17.1 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f7a1c62-e866-4146-b861-025badda20d3")
+	)
+	(fp_line
+		(start -6.9 -5.03)
+		(end -6.9 1.42)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38f6964d-c259-4242-95b5-b9af9bf14d6c")
+	)
+	(fp_line
+		(start -6.9 -5.03)
+		(end 16.9 -5.03)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11338925-1d78-44eb-8945-bafb4bea6979")
+	)
+	(fp_line
+		(start -6.9 1.42)
+		(end 16.9 1.42)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "519c04a5-b809-4083-bdcb-581e5798f389")
+	)
+	(fp_line
+		(start 16.9 -5.03)
+		(end 16.9 1.42)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ffd1010-e240-4259-9498-37bf8e52f29e")
+	)
+	(fp_text user "+"
+		(at -2.2 -0.7 0)
+		(layer "F.SilkS")
+		(uuid "2b71dc2a-4c96-42a0-bd46-95937452e3f3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.825 -2 180)
+		(layer "F.Fab")
+		(uuid "6c09dd4e-4b6b-4d6d-bc2f-6d45b2513087")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 90)
+		(size 2.7 2.7)
+		(drill 1.09)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9bc1f9b0-8c47-431f-99ec-8a9b89e7b1d6")
+	)
+	(pad "1" thru_hole rect
+		(at 10 0 90)
+		(size 2.7 2.7)
+		(drill 1.09)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2a366fa-0aa4-4d58-bdb0-6f5117348765")
+	)
+	(pad "2" thru_hole circle
+		(at 5 -3.6)
+		(size 1.6 1.6)
+		(drill 1.09)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "439749f2-96d3-44a8-bdc0-e4c1c8bbc1ad")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/Battery_Panasonic_CR2032-VS1N_Vertical_CircularHoles.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
