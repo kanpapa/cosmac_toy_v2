@@ -13,7 +13,9 @@ EF1～EF4入力により、外部機器からのステータス情報をプロ�
 |INSTRUCTION|MNEMONIC|OP CODE|OPERATION|
 |---|---|---|---|
 |SHORT BRANCH IF EF1 = 1 (EF1 = VSS)|B1|34|IF EF1 = 1, M(R(P)) → R(P).0, ELSE R(P) + 1 → R(P)|
-|SHORT BRANCH IF EF1 = 0 (EF1 = VCC)|BN1|3C|IF EF1 = 0, M(R(P)) → R(P).0, ELSE R(P) + 1 → R(P)|
+|RESET Q|REQ|7A|0 → Q|
+|SHORT BRANCH|BR|30|M(R(P)) → R(P).0|
+|SET Q|SEQ|7B|1 → Q|
 
 ## サンプルコード
 

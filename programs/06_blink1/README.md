@@ -8,6 +8,21 @@ R4レジスタを1減算したあとに、0になったかを確認していま�
 
 このように何をやるにしてもこのDレジスタを経由して行うことが多いです。
 
+## 使用する命令
+|INSTRUCTION|MNEMONIC|OP CODE|OPERATION|
+|---|---|---|---|
+|LOAD IMMEDIATE|LDI|F8|M(R(P)) → D; R(P) + 1 → R(P)|
+|PUT HIGH REG N|PHI|BN|D → R(N).1|
+|LONG SKIP IF Q = 1|LSQ|CD|IF Q = 1, R(P) + 2 → R(P), ELSE CONTINUE|
+|SET Q|SEQ|7B|1 → Q|
+|SHORT SKIP|SKP|38|R(P) + 1 → R(P)|
+|RESET Q|REQ|7A|0 → Q|
+|DECREMENT REG N|DEC|2N|R(N) - 1 → R(N)|
+|GET LOW REG N|GLO|8N|R(N).0 → D|
+|GET HIGH REG N|GHI|9N|R(N).1 → D|
+|SHORT BRANCH IF D NOT 0|BNZ|3A|IF D NOT 0, M(R(P)) → R(P).0, ELSE R(P) + 1 → R(P)|
+|SHORT BRANCH|BR|30|M(R(P)) → R(P).0|
+
 ## サンプルコード
 
 ```
