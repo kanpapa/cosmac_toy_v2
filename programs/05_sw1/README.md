@@ -31,3 +31,8 @@ EF1～EF4入力により、外部機器からのステータス情報をプロ�
 
 ![image](sw1_sch.png)
 
+## 実行結果
+手元にあったDFROBOT社の[Gravity: Digital Push Button (Yellow)](https://www.dfrobot.com/product-73.html)を使用しています。  
+画像をクリックすると動画が再生されます。
+
+[![sw1 video](https://img.youtube.com/vi/XKFlwYPNNAE/0.jpg)](https://www.youtube.com/watch?v=XKFlwYPNNAE)
