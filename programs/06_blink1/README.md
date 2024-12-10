@@ -39,3 +39,9 @@ R4レジスタを1減算したあとに、0になったかを確認していま�
 000C-3A 07            BNZ     LOOP1               ; Dレジスタが0でなければLOOP1にジャンプ
 000E-30 00            BR      START               ; 0番地から繰り返し
 ```
+
+## 実行結果
+Q-LEDの点滅ができました。  
+画像をクリックすると動画が再生されます。
+
+[![blink1 video](https://img.youtube.com/vi/glT6MU6y57Q/0.jpg)](https://www.youtube.com/watch?v=glT6MU6y57Q)
