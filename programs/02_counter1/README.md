@@ -18,5 +18,6 @@ R4レジスタをカウントアップしてその値をLEDに表示すること
 ```
 
 ## 実行結果
-表示が速すぎて上位ビットのLEDがチラチラするだけで他のLEDは点灯状態です。画像をクリックすると動画が再生されます。
+表示が速すぎて上位ビットのLEDがチラチラするだけで他のLEDは点灯状態です。  
+画像をクリックすると動画が再生されます。
 [![counter1 video](https://img.youtube.com/vi/4HAdMqkbjag/0.jpg)](https://www.youtube.com/watch?v=4HAdMqkbjag)
