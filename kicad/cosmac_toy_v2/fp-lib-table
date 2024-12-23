@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Switch_Toggle")(type "KiCad")(uri "${KIPRJMOD}/footprints/Switch_Toggle.pretty")(options "")(descr ""))
   (lib (name "Switch_Toggle_3D")(type "KiCad")(uri "${KIPRJMOD}/3dmodels/Switch_Toggle.3dshapes")(options "")(descr ""))
+  (lib (name "A295-CTRPB-1")(type "KiCad")(uri "${KIPRJMOD}/A295-CTRPB-1_KiCAD/A295-CTRPB-1.pretty")(options "")(descr ""))
 )
