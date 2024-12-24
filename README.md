@@ -34,7 +34,9 @@ ROMは搭載されておらず、トグルスイッチでRAMにプログラム�
 
 ## 外観
 Rev.0.3  
-![rev03](/docs/images/cosmac_toy_v2-rev03-300mil.jpg)
+![rev03](/docs/images/cosmac_toy_v2-rev03-300mil.jpg)  
+[Rev.0.2](/docs/images/cosmac_toy_v2-rev02-600mil.jpg)  
+[Rev.0.1](/docs/images/cosmac_toy_v2-rev01-prototype.jpg)  
 
 ## 特徴
 
