@@ -17,6 +17,8 @@
     * [05_sw1](05_sw1) - EF1に接続したスイッチを押すとQ-LEDが消灯し、離すとQ-LEDが点灯します。
 * [Q LEDを点滅させる](06_blink1/README.md)
     * [06_blink1](06_blink1) - Q LEDが一定時間間隔で点滅します。いわゆるLチカです。
+* [POVを試してみる](07_pov1/README.md)
+    * [07_pov](07_pov1) - POV(Persistent Of Vision)によるメッセージ表示です。もう少しチューニングできると思います。
 
 ## Requirement
 
