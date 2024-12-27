@@ -7,29 +7,17 @@ C2,0.1uF,積層セラミックコンデンサー 0.1μF100V X7R 5mmピッチ,Cap
 "J1,J2",Conn_01x20,ピンソケット (メス) 1×20 (20P),Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,2,秋月電子,103077,50,100,
 J3,Barrel_Jack_Switch,2.1mm標準DCジャック(4A) 基板取付用 MJ-179PH,Connector_BarrelJack:BarrelJack_Horizontal,1,秋月電子,106568,40,40,J3とJ4はどちらかを選択
 J4,USB-C Power,USB Type-Cコネクター 電源供給用,A295-CTRPB-1:A295-CTRPB-1,1,秋月電子,116895,40,40,https://github.com/21km43/A295-CTRPB-1_KiCAD
-"LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8",DATA_LED,3mm赤色LED 625nm OSR5JA3E34B,LED_THT:LED_D3.0mm,8,秋月電子,116588,10,80,10個入
-LED9,Q,3mm赤色LED 625nm OSR5JA3E34B,LED_THT:LED_D3.0mm,1,秋月電子,116588,10,10,10個入
+"LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9",LED,3mm赤色LED 625nm OSR5JA3E34B,LED_THT:LED_D3.0mm,9,秋月電子,116588,80,72,10個入
 "R1,R3,R5,R6,R7,R8",100k,カーボン抵抗(炭素皮膜抵抗) 1/4W100kΩ,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,6,秋月電子,125104,130,7.8,100本入
 R4,22k,カーボン抵抗(炭素皮膜抵抗) 1/4W22kΩ,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,秋月電子,125223,130,1,
 R2,2.2k,カーボン抵抗(炭素皮膜抵抗) 1/4W2.2kΩ,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,秋月電子,125222,100,1,100本入
 RN1,RN100K-8,集合抵抗 8素子 100kΩ,Resistor_THT:R_Array_SIP9,1,秋月電子,114228,25,25,
-RN2,RN100K-4,集合抵抗 4素子 100kΩ,Resistor_THT:R_Array_SIP5,1,秋月電子,114246,15,15,
+"RN2,RN5",RN100K-4,集合抵抗 4素子 100kΩ,Resistor_THT:R_Array_SIP5,2,秋月電子,114246,15,30,
 RN3,RN2.2K-8,集合抵抗 8素子 2.2kΩ,Resistor_THT:R_Array_SIP9,1,秋月電子,113915,30,30,
 RN4,RN10K-8,集合抵抗 8素子 10kΩ,Resistor_THT:R_Array_SIP9,1,秋月電子,111910,40,40,
-RN5,RN100K-4,集合抵抗 4素子 100kΩ,Resistor_THT:R_Array_SIP5,1,秋月電子,114246,15,15,
-SW1,D0,基板用小型3Pトグルスイッチ 1回路2接点,Switch_Toggle:SW_Toggle_P2.54mm_Vertical,1,秋月電子,102399,130,130,
-SW2,D1,基板用小型3Pトグルスイッチ 1回路2接点,Switch_Toggle:SW_Toggle_P2.54mm_Vertical,1,秋月電子,102399,130,130,
-SW3,D2,基板用小型3Pトグルスイッチ 1回路2接点,Switch_Toggle:SW_Toggle_P2.54mm_Vertical,1,秋月電子,102399,130,130,
-SW4,D3,基板用小型3Pトグルスイッチ 1回路2接点,Switch_Toggle:SW_Toggle_P2.54mm_Vertical,1,秋月電子,102399,130,130,
-SW5,D4,基板用小型3Pトグルスイッチ 1回路2接点,Switch_Toggle:SW_Toggle_P2.54mm_Vertical,1,秋月電子,102399,130,130,
-SW6,D5,基板用小型3Pトグルスイッチ 1回路2接点,Switch_Toggle:SW_Toggle_P2.54mm_Vertical,1,秋月電子,102399,130,130,
-SW7,D6,基板用小型3Pトグルスイッチ 1回路2接点,Switch_Toggle:SW_Toggle_P2.54mm_Vertical,1,秋月電子,102399,130,130,
-SW8,D7,基板用小型3Pトグルスイッチ 1回路2接点,Switch_Toggle:SW_Toggle_P2.54mm_Vertical,1,秋月電子,102399,130,130,
-SW9,WAIT,基板用小型3Pトグルスイッチ 1回路2接点,Switch_Toggle:SW_Toggle_P2.54mm_Vertical,1,秋月電子,102399,130,130,
-SW10,CLEAR,基板用小型3Pトグルスイッチ 1回路2接点,Switch_Toggle:SW_Toggle_P2.54mm_Vertical,1,秋月電子,102399,130,130,
-SW11,STB SW,スライドスイッチ 1回路2接点 基板用,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1,秋月電子,115707,20,20,
+"SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW13",Toggle-SW,基板用小型3Pトグルスイッチ 1回路2接点,Switch_Toggle:SW_Toggle_P2.54mm_Vertical,11,秋月電子,102399,130,1430,
+SW11,STB-SW,スライドスイッチ 1回路2接点 基板用,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1,秋月電子,115707,20,20,
 SW12,DMA-IN,押しボタンスイッチ(赤),Switch_Toggle:PushSwitch,1,秋月電子,104366,180,180,
-SW13,R/W SW,基板用小型3Pトグルスイッチ 1回路2接点,Switch_Toggle:SW_Toggle_P2.54mm_Vertical,1,秋月電子,102399,130,130,
 U1,CDP1802ACE,http://www.cosmacelf.com/publications/data-sheets/cdp1802.pdf,Package_DIP:DIP-40_W15.24mm_Socket,1,オレンジピコ,,746,746,
 U2,HM6264ALSP(300mil),,Package_DIP:DIP-28_W7.62mm_Socket,1,ー,,,,U2とU7はどちらかを選択
 U3,4001,4回路2入力NOR TC4001BP,Package_DIP:DIP-14_W7.62mm,1,秋月電子,110911,50,50,
@@ -43,7 +31,7 @@ U7,HM6264ALP(600mil),,Package_DIP:DIP-28_W15.24mm_Socket,1,若松通商,,850,850
 ,,ICソケット (20P),,1,秋月電子,100009,170,17,10個入
 ,,ICソケット (14P),,3,秋月電子,100006,120,36,10個入
 ,,丸ピンIC用ソケット (シングル14P) 1×14,,2,秋月電子,103470,50,100,
-,,,,,,,,4403.8,
+,,,,,,,,4385.8,
 ,,,,,,,,,
 以下64Kメモリが入手できない場合の代替用,,,,,,,,,
 ,,SRAM 64Kb LC3564SM-70,,1,,114234,100,100,在庫限り
