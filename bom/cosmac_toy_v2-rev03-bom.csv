@@ -1,15 +1,15 @@
-Reference,Value,Datasheet,Footprint,Qty,参考入手先,秋月電子販売コード,参考価格,計,
+Reference,Value,Datasheet,Footprint,Qty,参考入手先,秋月電子販売コード,単価,合計,
 BT1,Battery_Cell,ボタン電池基板取付用ホルダー CR2032用(縦型),Switch_Toggle:CH243-2032CF,1,秋月電子,102019,80,80,
 C1,22p,積層セラミックコンデンサー 22pF50V C0G 5mm,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,1,秋月電子,108094,130,13,10個入
 C2,0.1uF,積層セラミックコンデンサー 0.1μF100V X7R 5mmピッチ,Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm,1,秋月電子,115927,120,12,10個入
 "D1,D2,D3,D6,D7",1N4148,汎用小信号高速スイッチング・ダイオード 1N4148 100V200mA,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,5,秋月電子,100941,150,15,50本入り
 "D4,D5",1S4,整流用ショットキーダイオード 40V1A 1S4,Diode_THT:D_A-405_P7.62mm_Horizontal,2,秋月電子,100127,20,40,
 "J1,J2",Conn_01x20,ピンソケット (メス) 1×20 (20P),Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,2,秋月電子,103077,50,100,
-J3,Barrel_Jack_Switch,2.1mm標準DCジャック(4A) 基板取付用 MJ-179PH,Connector_BarrelJack:BarrelJack_Horizontal,1,秋月電子,106568,40,40,J3とJ4はどちらかを選択
-J4,USB-C Power,USB Type-Cコネクター 電源供給用,A295-CTRPB-1:A295-CTRPB-1,1,秋月電子,116895,40,40,https://github.com/21km43/A295-CTRPB-1_KiCAD
+J3,Barrel_Jack_Switch,2.1mm標準DCジャック(4A) 基板取付用 MJ-179PH,Connector_BarrelJack:BarrelJack_Horizontal,1,秋月電子,106568,40,40,J3とJ4は使用するものを選択
+J4,USB-C Power,USB Type-Cコネクター 電源供給用,A295-CTRPB-1:A295-CTRPB-1,1,秋月電子,116895,40,40,
 "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9",LED,3mm赤色LED 625nm OSR5JA3E34B,LED_THT:LED_D3.0mm,9,秋月電子,116588,80,72,10個入
 "R1,R3,R5,R6,R7,R8",100k,カーボン抵抗(炭素皮膜抵抗) 1/4W100kΩ,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,6,秋月電子,125104,130,7.8,100本入
-R4,22k,カーボン抵抗(炭素皮膜抵抗) 1/4W22kΩ,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,秋月電子,125223,130,1,
+R4,22k,カーボン抵抗(炭素皮膜抵抗) 1/4W22kΩ,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,秋月電子,125223,130,1.3,100本入
 R2,2.2k,カーボン抵抗(炭素皮膜抵抗) 1/4W2.2kΩ,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,秋月電子,125222,100,1,100本入
 RN1,RN100K-8,集合抵抗 8素子 100kΩ,Resistor_THT:R_Array_SIP9,1,秋月電子,114228,25,25,
 "RN2,RN5",RN100K-4,集合抵抗 4素子 100kΩ,Resistor_THT:R_Array_SIP5,2,秋月電子,114246,15,30,
@@ -31,7 +31,7 @@ U7,HM6264ALP(600mil),,Package_DIP:DIP-28_W15.24mm_Socket,1,若松通商,,850,850
 ,,ICソケット (20P),,1,秋月電子,100009,170,17,10個入
 ,,ICソケット (14P),,3,秋月電子,100006,120,36,10個入
 ,,丸ピンIC用ソケット (シングル14P) 1×14,,2,秋月電子,103470,50,100,
-,,,,,,,,4385.8,
+,,,,,,,,4386.1,
 ,,,,,,,,,
 以下64Kメモリが入手できない場合の代替用,,,,,,,,,
 ,,SRAM 64Kb LC3564SM-70,,1,,114234,100,100,在庫限り
