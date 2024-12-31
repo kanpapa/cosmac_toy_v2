@@ -19,6 +19,8 @@
     * [06_blink1](06_blink1) - Q LEDが一定時間間隔で点滅します。いわゆるLチカです。
 * [POVを試してみる](07_pov1/README.md)
     * [07_pov](07_pov1) - POV(Persistent Of Vision)によるメッセージ表示です。もう少しチューニングできると思います。
+* [シリアルバイナリローダー](08_binloader1/README.md)
+    * [08_binloader1](08_binloader1) - USBシリアル変換モジュールを接続して入力されたシリアルデータをLEDに表示しながらメモリに書き込みます。
 
 ## Requirement
 
