@@ -16,7 +16,7 @@
 COSMAC TOY V2とUSBシリアル変換モジュールを接続しPCと接続します。IOの電圧は5Vのものを使用してください。  
 私は秋月電子の[FT-232RQ USBシリアル変換モジュール](https://akizukidenshi.com/catalog/g/g111007/)を使用しました。
 
-![image](binloader1_sch.png)
+![image](binloader1_sch.jpg)
 
 実際にUSBシリアル変換モジュールに接続している様子です。
 
