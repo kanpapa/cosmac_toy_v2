@@ -18,7 +18,7 @@ RN4,RN10K-8,集合抵抗 8素子 10kΩ,Resistor_THT:R_Array_SIP9,1,秋月電子,
 "SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW13",Toggle-SW,基板用小型3Pトグルスイッチ 1回路2接点,Switch_Toggle:SW_Toggle_P2.54mm_Vertical,11,秋月電子,102399,130,1430,
 SW11,STB-SW,スライドスイッチ 1回路2接点 基板用,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1,秋月電子,115707,20,20,
 SW12,DMA-IN,押しボタンスイッチ(赤),Switch_Toggle:PushSwitch,1,秋月電子,104366,180,180,
-U1,CDP1802ACE,http://www.cosmacelf.com/publications/data-sheets/cdp1802.pdf,Package_DIP:DIP-40_W15.24mm_Socket,1,オレンジピコ,,746,746,
+U1,CDP1802ACE,http://www.cosmacelf.com/publications/data-sheets/cdp1802.pdf,Package_DIP:DIP-40_W15.24mm_Socket,1,オレンジピコショップ,,746,746,https://store.shopping.yahoo.co.jp/orangepicoshop/pico-i-140.html
 U2,HM6264ALSP(300mil),,Package_DIP:DIP-28_W7.62mm_Socket,1,ー,,,,U2とU7はどちらかを選択
 U3,4001,4回路2入力NOR TC4001BP,Package_DIP:DIP-14_W7.62mm,1,秋月電子,110911,50,50,
 U4,4013,2回路Dフリップフロップ TC4013BP,Package_DIP:DIP-14_W7.62mm,1,秋月電子,114210,40,40,
